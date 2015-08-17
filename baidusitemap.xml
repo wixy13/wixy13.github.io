@@ -2,15 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
+    <lastmod>2015-08-17T05:38:15.972Z</lastmod>
+    <data>
+        <display>
+        <title>hexo博客中添加instagram相册</title>
+        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
+        
+        <tag>hexo </tag>
+         
+         
+           
+             
+              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://wixy.top/2015/08/16/markdown-1/</loc>
-    <lastmod>2015-08-16T04:57:29.463Z</lastmod>
+    <lastmod>2015-08-17T03:31:10.740Z</lastmod>
     <data>
         <display>
         <title>Markdown语法</title>
         <pubTime>2015-08-16T03:50:51.000Z</pubTime>
         
+        <tag>hexo </tag>
+         
         <tag>markdown </tag>
          
          
@@ -22,6 +43,7 @@
     </data>
     </url>
 
+    
     
     
   <url>
