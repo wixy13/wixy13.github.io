@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://wixy.top/2015/08/14/my-new-post/</loc>
+    <lastmod>2015-08-18T15:05:52.250Z</lastmod>
+    <data>
+        <display>
+        <title>新博客开通啦~~~</title>
+        <pubTime>2015-08-14T12:09:51.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="随笔" url="http://wixy.top/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
@@ -46,24 +64,6 @@
 
     
     
-    
-  <url>
-    <loc>http://wixy.top/2015/08/14/my-new-post/</loc>
-    <lastmod>2015-08-15T11:52:34.047Z</lastmod>
-    <data>
-        <display>
-        <title>新博客开通啦~~~</title>
-        <pubTime>2015-08-14T12:09:51.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="随笔" url="http://wixy.top/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://wixy.top/2015/08/14/hello-world/</loc>
