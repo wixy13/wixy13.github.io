@@ -841,6 +841,13 @@ span.ua {
 #header .header-nav .social a.mail:hover {
   border: 1px solid #006b98;
 }
+#header .header-nav .social a.pinboard {
+  background: url("/img/pinboard.png") center no-repeat #1e90ff;
+  border: 1px solid #1e90ff;
+}
+#header .header-nav .social a.pinboard:hover {
+  border: 1px solid #1e90ff;
+}
 #header .switch-part {
   width: 100%;
   position: absolute;
