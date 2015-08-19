@@ -16,7 +16,7 @@ function checkMobile() {
 function sskadmin(e) {
     var ssk = '';
     if (e.user_id == 13161572) {
-        /*if (checkMobile()) {
+        if (checkMobile()) {
             ssk = '<span class="ua"><span class="sskadmin">博主</span></span><br><br>';
         } else {
             ssk = '<span class="ua"><span class="sskadmin">博主</span></span>';
@@ -24,10 +24,9 @@ function sskadmin(e) {
     } else {
         if (checkMobile()) {
             ssk = '<br><br>';
-        }*/
-		ssk = '<span class="sskadmin">博主'
+        }
     }
-	return ssk+"</span> ";
+	return ssk+" ";
     //return ssk;
 }
 //管理员判断结束
