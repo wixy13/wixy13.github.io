@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://wixy.top/2015/08/22/hdu-1018/</loc>
+    <lastmod>2015-08-22T09:11:06.911Z</lastmod>
+    <data>
+        <display>
+        <title>HDU 1018 Big Number</title>
+        <pubTime>2015-08-22T03:10:33.000Z</pubTime>
+        
+        <tag>ACM </tag>
+         
+        <tag>HDU </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2015/08/22/about-string/</loc>
+    <lastmod>2015-08-22T08:01:42.736Z</lastmod>
+    <data>
+        <display>
+        <title><string> 与<string.h>、<cstring>的区别</title>
+        <pubTime>2015-08-22T02:20:28.000Z</pubTime>
+        
+        <tag>C++ </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
