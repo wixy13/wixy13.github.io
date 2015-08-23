@@ -3,18 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>新博客开通啦~~~ | WangYu&#39;s Blog</title>
+  <title>HDU 1013 Digital Roots | WangYu&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="OK 终于搞定了  一直都想弄个自己的博客玩玩，偶尔写写文章什么的，自己是个菜鸟但还想搞那种高度自定义的看上去很流弊的个人主页，自然是找不到合适的。这个博客也是倒腾了很长时间才弄出来的，之前准备用 ruby+jekylly+github，但奈何在我的电脑上搭载本地运行环境的时候出现了各种各样的问题，不得不放弃了。然后又找到了hexo搭建博客，克服种种困难之后终于成功了，写点东西测试测试，顺便庆祝庆">
+  <meta name="description" content="http://acm.hdu.edu.cn/showproblem.php?pid=1013
+题目大意给一个数，若这个数的各个位数上的和为一位数字，则输出结果。否则继续计算上一结果的各个位数上的和，知道结果为一位数字，进行输出
+Sample Input20
+39">
 <meta property="og:type" content="article">
-<meta property="og:title" content="新博客开通啦~~~">
-<meta property="og:url" content="http://wixy.top/2015/08/14/my-new-post/index.html">
+<meta property="og:title" content="HDU 1013 Digital Roots">
+<meta property="og:url" content="http://wixy.top/2015/08/23/hdu-1013/index.html">
 <meta property="og:site_name" content="WangYu's Blog">
-<meta property="og:description" content="OK 终于搞定了  一直都想弄个自己的博客玩玩，偶尔写写文章什么的，自己是个菜鸟但还想搞那种高度自定义的看上去很流弊的个人主页，自然是找不到合适的。这个博客也是倒腾了很长时间才弄出来的，之前准备用 ruby+jekylly+github，但奈何在我的电脑上搭载本地运行环境的时候出现了各种各样的问题，不得不放弃了。然后又找到了hexo搭建博客，克服种种困难之后终于成功了，写点东西测试测试，顺便庆祝庆">
-<meta property="og:updated_time" content="2015-08-19T03:53:16.166Z">
+<meta property="og:description" content="http://acm.hdu.edu.cn/showproblem.php?pid=1013
+题目大意给一个数，若这个数的各个位数上的和为一位数字，则输出结果。否则继续计算上一结果的各个位数上的和，知道结果为一位数字，进行输出
+Sample Input20
+39">
+<meta property="og:updated_time" content="2015-08-23T11:15:45.911Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="新博客开通啦~~~">
-<meta name="twitter:description" content="OK 终于搞定了  一直都想弄个自己的博客玩玩，偶尔写写文章什么的，自己是个菜鸟但还想搞那种高度自定义的看上去很流弊的个人主页，自然是找不到合适的。这个博客也是倒腾了很长时间才弄出来的，之前准备用 ruby+jekylly+github，但奈何在我的电脑上搭载本地运行环境的时候出现了各种各样的问题，不得不放弃了。然后又找到了hexo搭建博客，克服种种困难之后终于成功了，写点东西测试测试，顺便庆祝庆">
+<meta name="twitter:title" content="HDU 1013 Digital Roots">
+<meta name="twitter:description" content="http://acm.hdu.edu.cn/showproblem.php?pid=1013
+题目大意给一个数，若这个数的各个位数上的和为一位数字，则输出结果。否则继续计算上一结果的各个位数上的和，知道结果为一位数字，进行输出
+Sample Input20
+39">
   
     <link rel="alternative" href="/atom.xml" title="WangYu&#39;s Blog" type="application/atom+xml">
   
@@ -190,11 +199,11 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-my-new-post" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-hdu-1013" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/08/14/my-new-post/" class="article-date">
-  	<time datetime="2015-08-14T12:09:51.000Z" itemprop="datePublished">2015-08-14</time>
+      <a href="/2015/08/23/hdu-1013/" class="article-date">
+  	<time datetime="2015-08-23T10:22:58.000Z" itemprop="datePublished">2015-08-23</time>
 </a>
     </div>
   
@@ -207,7 +216,7 @@ var _hmt = _hmt || [];
         
   
     <h1 class="article-title" itemprop="name">
-      新博客开通啦~~~
+      HDU 1013 Digital Roots
     </h1>
   
 
@@ -215,9 +224,13 @@ var _hmt = _hmt || [];
       
       <div class="article-info article-info-post">
         
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HDU/">HDU</a></li></ul>
+	</div>
+
         
 	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/随笔/">随笔</a>
+	<a class="article-category-link" href="/categories/学习/">学习</a>
 	</div>
 
 
@@ -227,15 +240,75 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="OK_终于搞定了">OK 终于搞定了</h1><p>  一直都想弄个自己的博客玩玩，偶尔写写文章什么的，自己是个菜鸟但还想搞那种高度自定义的看上去很流弊的个人主页，自然是找不到合适的。这个博客也是倒腾了很长时间才弄出来的，之前准备用 ruby+jekylly+github，但奈何在我的电脑上搭载本地运行环境的时候出现了各种各样的问题，不得不放弃了。然后又找到了hexo搭建博客，克服种种困难之后终于成功了，写点东西测试测试，顺便庆祝庆祝！！</p>
-<h2 id="下面放两首最近在听的音乐_<!-more->">下面放两首最近在听的音乐 <a id="more"></a></h2><p>  <strong>try</strong></p>
-  <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1773265410&mode=js"></script>
+        <p><a href="http://acm.hdu.edu.cn/showproblem.php?pid=1013" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=1013</a></p>
+<h2 id="题目大意">题目大意</h2><p>给一个数，若这个数的各个位数上的和为一位数字，则输出结果。否则继续计算上一结果的各个位数上的和，知道结果为一位数字，进行输出</p>
+<h4 id="Sample_Input">Sample Input</h4><p>20</p>
+<p>39<a id="more"></a></p>
+<p>0</p>
+<h4 id="Sample_Output">Sample Output</h4><p>6</p>
+<p>3</p>
+<h2 id="解题方法">解题方法</h2><ul>
+<li>注意输入的数字很大需要字符串读入</li>
+<li>递归思想</li>
+<li>九余数定理</li>
+<li>也可以归纳出 <code>roots=(n-1)%9+1</code>直接计算</li>
+</ul>
+<h2 id="代码">代码</h2><pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span>
+<span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span> </span>
+<span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
 
-<p>  <strong>借过</strong></p>
-  <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1774568945&mode=js"></script>
+<span class="function"><span class="keyword">int</span> <span class="title">solve</span><span class="params">(<span class="keyword">int</span> num)</span>
+</span>{
+    <span class="keyword">if</span>(num&lt;=<span class="number">9</span>)
+    <span class="keyword">return</span> num;
+    <span class="keyword">else</span>
+    {
+        <span class="keyword">int</span> a=<span class="number">0</span>;
+        <span class="keyword">while</span>(num&gt;<span class="number">0</span>)
+        {
+            a+=num%<span class="number">10</span>;
+            num/=<span class="number">10</span>;
+        }
+        num=a;
+        solve(num);
+    }
+}
+<span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span>
+</span>{
+    <span class="built_in">string</span> str;
+    <span class="keyword">int</span> s;
+    <span class="keyword">while</span>(getline(<span class="built_in">cin</span>,str) &amp;&amp; str[<span class="number">0</span>]!=<span class="string">'0'</span>)
+    {
+        s=<span class="number">0</span>;
+        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;str.length();i++)
+        {
+            s+=str[i]-<span class="string">'0'</span>;
+        }
+        <span class="built_in">cout</span>&lt;&lt;solve(s)&lt;&lt;endl;
+    }
+    <span class="keyword">return</span> <span class="number">0</span>;
+}
+</code></pre><h3 id="代入公式更简单">代入公式更简单</h3><pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span>
+<span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span> </span>
+<span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
 
-
-
+<span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span>
+</span>{
+    <span class="built_in">string</span> str;
+    <span class="keyword">int</span> s;
+    <span class="keyword">while</span>(getline(<span class="built_in">cin</span>,str) &amp;&amp; str[<span class="number">0</span>]!=<span class="string">'0'</span>)
+    {
+        s=<span class="number">0</span>;
+        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;str.length();i++)
+        {
+            s+=str[i]-<span class="string">'0'</span>;
+        }
+        s=(s-<span class="number">1</span>)%<span class="number">9</span>+<span class="number">1</span>;
+        <span class="built_in">cout</span>&lt;&lt;s&lt;&lt;endl;
+    }
+    <span class="keyword">return</span> <span class="number">0</span>;
+}
+</code></pre>
       
     </div>
     
@@ -244,18 +317,9 @@ var _hmt = _hmt || [];
     
 <nav id="article-nav">
   
-    <a href="/2015/08/16/markdown-1/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          Markdown语法
-        
-      </div>
-    </a>
   
-  
-    <a href="/2015/08/14/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2015/08/22/hdu-1018/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">HDU 1018 Big Number</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -284,7 +348,7 @@ var _hmt = _hmt || [];
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="my-new-post" data-title="新博客开通啦~~~" data-url="http://wixy.top/2015/08/14/my-new-post/"></div>
+	<div class="ds-thread" data-thread-key="hdu-1013" data-title="HDU 1013 Digital Roots" data-url="http://wixy.top/2015/08/23/hdu-1013/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
