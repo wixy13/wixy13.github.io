@@ -115,5 +115,9 @@ require([], function (){
 	$("#container #mobile-nav .overlay").css({"background-color": colorList[id],"opacity": 1});
 	//PC页面
 	$("#container .left-col .overlay").css({"background-color": colorList[id],"opacity": 1});
+	//留言板flash移动端不显示
+	if (document.body.clientWidth < 801) {
+		$("[wmode='transparent']").hide();
+	}
 	
 });
