@@ -3,27 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>HDU 1018 Big Number | WangYu&#39;s Blog</title>
+  <title>WangYu&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="http://acm.hdu.edu.cn/showproblem.php?pid=1018
-题目大意求一个数阶乘的位数
-Sample Input2
-10">
-<meta property="og:type" content="article">
-<meta property="og:title" content="HDU 1018 Big Number">
-<meta property="og:url" content="http://wixy.top/2015/08/22/hdu-1018/index.html">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WangYu's Blog">
+<meta property="og:url" content="http://wixy.top/page/2/index.html">
 <meta property="og:site_name" content="WangYu's Blog">
-<meta property="og:description" content="http://acm.hdu.edu.cn/showproblem.php?pid=1018
-题目大意求一个数阶乘的位数
-Sample Input2
-10">
-<meta property="og:updated_time" content="2015-08-24T14:54:43.402Z">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HDU 1018 Big Number">
-<meta name="twitter:description" content="http://acm.hdu.edu.cn/showproblem.php?pid=1018
-题目大意求一个数阶乘的位数
-Sample Input2
-10">
+<meta name="twitter:title" content="WangYu's Blog">
+<meta name="twitter:description">
   
     <link rel="alternative" href="/atom.xml" title="WangYu&#39;s Blog" type="application/atom+xml">
   
@@ -217,11 +207,13 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-hdu-1018" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap">
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/08/22/hdu-1018/" class="article-date">
-  	<time datetime="2015-08-22T03:10:33.000Z" itemprop="datePublished">2015-08-22</time>
+      <a href="/2015/08/14/hello-world/" class="article-date">
+  	<time datetime="2015-08-14T10:43:42.618Z" itemprop="datePublished">2015-08-14</time>
 </a>
     </div>
   
@@ -233,154 +225,51 @@ var _hmt = _hmt || [];
       <header class="article-header">
         
   
-    <h1 class="article-title" itemprop="name">
-      HDU 1018 Big Number
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/08/14/hello-world/">Hello World</a>
     </h1>
   
 
       </header>
       
-      <div class="article-info article-info-post">
-        
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HDU/">HDU</a></li></ul>
-	</div>
-
-        
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/学习/">学习</a>
-	</div>
-
-
-        <div class="clearfix"></div>
-      </div>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a href="http://acm.hdu.edu.cn/showproblem.php?pid=1018" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=1018</a></p>
-<h2 id="题目大意">题目大意</h2><p>求一个数阶乘的位数</p>
-<h4 id="Sample_Input">Sample Input</h4><p>2</p>
-<p>10<a id="more"></a></p>
-<p>20</p>
-<h4 id="Sample_Output">Sample Output</h4><p>7</p>
-<p>9</p>
-<h2 id="方法与总结">方法与总结</h2><ul>
-<li>用对数求位数（<code>log10(n*m)=log10(n)+log10(m)</code>）</li>
-<li>用斯特林公式（<code>lnN!=NlnN-N+0.5*ln(2*N*pi)</code>)</li>
-</ul>
-<h2 id="代码">代码</h2><h4 id="对数求位数">对数求位数</h4><pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span> </span>
-<span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;cmath&gt;</span></span>
-<span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
-
-<span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span>
-</span>{
-    <span class="keyword">int</span> n,m;
-    <span class="keyword">double</span> sum;
-    <span class="keyword">while</span>(<span class="built_in">cin</span>&gt;&gt;n)
-    {
-        <span class="keyword">while</span>(n--)
-        {
-            <span class="built_in">cin</span>&gt;&gt;m;
-            sum=<span class="number">0</span>;
-            <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)
-                sum+=<span class="built_in">log10</span>(i);
-            <span class="built_in">cout</span>&lt;&lt;(<span class="keyword">int</span>)sum+<span class="number">1</span>&lt;&lt;endl;
-        }
-    }
-    <span class="keyword">return</span> <span class="number">0</span>;
-}
-</code></pre><h4 id="斯特林公式">斯特林公式</h4><pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span>
-<span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;cmath&gt;</span></span>
-<span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
-
-<span class="keyword">const</span> <span class="keyword">double</span> PI=<span class="number">3.14159265</span>;
-<span class="function"><span class="keyword">void</span> <span class="title">solve</span><span class="params">(<span class="keyword">int</span> num)</span>
-</span>{
-    <span class="keyword">double</span> s=(<span class="function">num*<span class="title">log</span><span class="params">(num)</span>-num+0.5*<span class="title">log</span><span class="params">(<span class="number">2</span>*num*PI)</span>)/<span class="params">(<span class="built_in">log</span>(<span class="number">10</span>)</span>)</span>;
-    <span class="built_in">cout</span>&lt;&lt;(<span class="keyword">int</span>)s+<span class="number">1</span>&lt;&lt;endl;
-}
-
-<span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span>
-</span>{
-    <span class="keyword">int</span> n,m;
-    <span class="built_in">cin</span>&gt;&gt;n;
-    <span class="keyword">while</span>(n--)
-    {
-        <span class="built_in">cin</span>&gt;&gt;m;
-        solve(m);
-    }
-    <span class="keyword">return</span> <span class="number">0</span>;
-}
-</code></pre>
+        <p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html">Writing</a>
       
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/08/14/hello-world/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
     </div>
     
   </div>
   
-    
-<nav id="article-nav">
-  
-    <a href="/2015/08/23/hdu-1013/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          HDU 1013 Digital Roots
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2015/08/22/about-string/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">&lt;string&gt; 与&lt;string.h&gt;、&lt;cstring&gt;的区别</div>
-      <strong class="article-nav-caption">></strong>
-    </a>
-  
-</nav>
-
-  
 </article>
 
 
-<div class="share">
-	<!-- JiaThis Button BEGIN -->
-	<div class="jiathis_style">
-		<span class="jiathis_txt">分享到：</span>
-		<a class="jiathis_button_tsina"></a>
-		<a class="jiathis_button_cqq"></a>
-		<a class="jiathis_button_douban"></a>
-		<a class="jiathis_button_weixin"></a>
-		<a class="jiathis_button_tumblr"></a>
-		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-	</div>
-	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
-	<!-- JiaThis Button END -->
-</div>
-
-
-
-<div class="duoshuo">
-	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="hdu-1018" data-title="HDU 1018 Big Number" data-url="http://wixy.top/2015/08/22/hdu-1018/"></div>
-	<!-- 多说评论框 end -->
-	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"wixy"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://iblogc.qiniudn.com/duoshuo/embed_v20150509.02.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-	<!-- 多说公共JS代码 end -->
-</div>
 
 
 
 
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </nav>
+  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -406,8 +295,8 @@ var _hmt = _hmt || [];
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: false,
-		isPost: true,
+		isHome: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
