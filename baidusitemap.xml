@@ -2,6 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://wixy.top/2015/08/16/markdown-1/</loc>
+    <lastmod>2015-08-24T03:35:58.392Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown语法</title>
+        <pubTime>2015-08-16T03:50:51.000Z</pubTime>
+        
+        <tag>hexo </tag>
+         
+        <tag>markdown </tag>
+         
+         
+           
+             
+              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2015/08/24/hdu-2005/</loc>
+    <lastmod>2015-08-24T03:17:33.643Z</lastmod>
+    <data>
+        <display>
+        <title>hdu 2005 第几天？</title>
+        <pubTime>2015-08-24T03:06:16.000Z</pubTime>
+        
+        <tag>ACM </tag>
+         
+        <tag>HDU </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://wixy.top/2015/08/23/hdu-1013/</loc>
@@ -80,28 +124,6 @@
         <pubTime>2015-08-17T02:21:51.000Z</pubTime>
         
         <tag>hexo </tag>
-         
-         
-           
-             
-              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wixy.top/2015/08/16/markdown-1/</loc>
-    <lastmod>2015-08-19T03:54:01.637Z</lastmod>
-    <data>
-        <display>
-        <title>Markdown语法</title>
-        <pubTime>2015-08-16T03:50:51.000Z</pubTime>
-        
-        <tag>hexo </tag>
-         
-        <tag>markdown </tag>
          
          
            

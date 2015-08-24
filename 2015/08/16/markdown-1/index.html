@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   
-  
   <title>Markdown语法 | WangYu&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="开了博客自然是要写文章的，花了一些时间简单的学习了下Markdown，下面就介绍一下用Markdown来写博客。
@@ -17,7 +16,7 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档。
 标题这是最为常用的格式，在平时常用的的文本编辑器中大多是这样实现的：输入文本、选中文本、设置标题格式。">
 <meta property="og:image" content="http://sc.jb51.net/uploads/allimg/140307/11-14030G41P3628.jpg">
-<meta property="og:updated_time" content="2015-08-19T03:54:01.637Z">
+<meta property="og:updated_time" content="2015-08-24T03:35:58.392Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown语法">
 <meta name="twitter:description" content="开了博客自然是要写文章的，花了一些时间简单的学习了下Markdown，下面就介绍一下用Markdown来写博客。
@@ -42,7 +41,6 @@ var _hmt = _hmt || [];
 </script>
 
   <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
-  <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <div id="container">
@@ -140,7 +138,7 @@ var _hmt = _hmt || [];
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/ACM/" style="font-size: 20px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/HDU/" style="font-size: 20px;">HDU</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
+						<a href="/tags/ACM/" style="font-size: 20px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/HDU/" style="font-size: 20px;">HDU</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
 					</div>
 				</section>
 				
@@ -303,15 +301,10 @@ var _hmt = _hmt || [];
 </blockquote>
 <h2 id="粗体和斜体">粗体和斜体</h2><p>Markdown 的粗体和斜体也非常简单，用两个 <code>*</code> 包含一段文本就是粗体的语法，用一个 <code>*</code> 包含一段文本就是斜体的语法。例如：<br><code>**这是粗体**  *这是斜体*</code></p>
 <p><strong>预览</strong><br><strong>这是粗体</strong>  <em>这是斜体</em></p>
-<h2 id="代码">代码</h2><p>有的人经常会在文章中插入代码，Markdown的代码用反引号`表示，将下面一段代码中的·号换成反引号即可，如下：</p>
-<blockquote>
-<p>·这是行内代码·<br>  ···python</p>
-<p> #三个反引号~包围的是代码块。</p>
-<p> #会显示行号。</p>
-<p> #也有高亮显示</p>
-<p> #我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python<br> import os<br> print os.sep<br> ···</p>
-</blockquote>
-<p><strong>预览</strong></p>
+<h2 id="代码">代码</h2><p>有的人经常会在文章中插入代码，Markdown的代码用反引号`表示，如下：</p>
+<pre><code>`这是行内代码`
+ <span class="comment"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#三个反引号~包围的是代码块。</span></span><br><span class="line"><span class="comment">#会显示行号。</span></span><br><span class="line"><span class="comment">#也有高亮显示</span></span><br><span class="line"><span class="comment">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">print</span> os.sep</span><br></pre></td></tr></table></figure></span>
+</code></pre><p><strong>预览</strong></p>
 <p> <code>这是行内代码</code><br> <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#三个反引号~包围的是代码块。</span></span><br><span class="line"><span class="comment">#会显示行号。</span></span><br><span class="line"><span class="comment">#也有高亮显示</span></span><br><span class="line"><span class="comment">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">print</span> os.sep</span><br></pre></td></tr></table></figure></p>
 <h2 id="表格">表格</h2><p>使用方法如下：<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|<span class="string"> 项目        </span>|<span class="string"> 价格     </span>|<span class="string">  数量   </span>|</span><br><span class="line">|<span class="string"> -------    </span>|<span class="string"> -----:   </span>|<span class="string"> :--- :  </span>|</span><br><span class="line">|<span class="string"> 计算机      </span>|<span class="string"> \$1600   </span>|<span class="string">   5    </span>|</span><br><span class="line">|<span class="string"> 手机        </span>|<span class="string">   \$12   </span>|<span class="string">   12   </span>|</span><br><span class="line">|<span class="string"> 管线        </span>|<span class="string">    \$1   </span>|<span class="string">  234   </span>|</span><br></pre></td></tr></table></figure></p>
 <p><strong>预览</strong></p>
