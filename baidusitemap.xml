@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+    
+    
+    
+  <url>
+    <loc>http://wixy.top/2015/08/14/my-new-post/</loc>
+    <lastmod>2015-08-24T23:42:34.617Z</lastmod>
+    <data>
+        <display>
+        <title>新博客开通啦~~~</title>
+        <pubTime>2015-08-14T12:09:51.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="随笔" url="http://wixy.top/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://wixy.top/2015/08/21/reverse-the-words/</loc>
     <lastmod>2015-08-24T15:20:18.520Z</lastmod>
@@ -178,7 +199,6 @@
     
     
     
-    
   <url>
     <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
     <lastmod>2015-08-19T03:54:12.903Z</lastmod>
@@ -193,24 +213,6 @@
            
              
               <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wixy.top/2015/08/14/my-new-post/</loc>
-    <lastmod>2015-08-19T03:53:16.166Z</lastmod>
-    <data>
-        <display>
-        <title>新博客开通啦~~~</title>
-        <pubTime>2015-08-14T12:09:51.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="随笔" url="http://wixy.top/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
