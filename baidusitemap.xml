@@ -3,6 +3,26 @@
 
     
   <url>
+    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
+    <lastmod>2016-02-05T14:53:52.266Z</lastmod>
+    <data>
+        <display>
+        <title>hexo博客中添加instagram相册</title>
+        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
+        
+        <tag>hexo </tag>
+         
+         
+           
+             
+              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://wixy.top/2015/12/24/lq-basic-10/</loc>
     <lastmod>2015-12-24T16:09:16.589Z</lastmod>
     <data>
@@ -532,25 +552,5 @@
     
     
     
-    
-  <url>
-    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
-    <lastmod>2015-08-19T03:54:12.903Z</lastmod>
-    <data>
-        <display>
-        <title>hexo博客中添加instagram相册</title>
-        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
-        
-        <tag>hexo </tag>
-         
-         
-           
-             
-              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
 </urlset>
