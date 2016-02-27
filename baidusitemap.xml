@@ -2,6 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://wixy.top/2016/02/27/gcd-and-lcm/</loc>
+    <lastmod>2016-02-27T14:15:01.312Z</lastmod>
+    <data>
+        <display>
+        <title>关于最大公约数和最小公倍数</title>
+        <pubTime>2016-02-27T14:03:12.000Z</pubTime>
+        
+        <tag>笔记 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2016/02/27/auj-165/</loc>
+    <lastmod>2016-02-27T13:20:31.313Z</lastmod>
+    <data>
+        <display>
+        <title>auj 165 字符统计</title>
+        <pubTime>2016-02-27T13:04:17.000Z</pubTime>
+        
+        <tag>ACM </tag>
+         
+        <tag>AUJ </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2016/02/27/auj-168/</loc>
+    <lastmod>2016-02-27T13:20:24.012Z</lastmod>
+    <data>
+        <display>
+        <title>auj 168 成绩评估</title>
+        <pubTime>2016-02-27T13:10:37.000Z</pubTime>
+        
+        <tag>ACM </tag>
+         
+        <tag>AUJ </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2016/02/27/about-input-1/</loc>
+    <lastmod>2016-02-27T13:01:02.462Z</lastmod>
+    <data>
+        <display>
+        <title>C++读取一行字符串输入</title>
+        <pubTime>2016-02-27T12:46:31.000Z</pubTime>
+        
+        <tag>C++ </tag>
+         
+        <tag>笔记 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2015/08/22/about-string/</loc>
+    <lastmod>2016-02-27T13:01:01.208Z</lastmod>
+    <data>
+        <display>
+        <title><string> 与<string.h>、<cstring>的区别</title>
+        <pubTime>2015-08-22T02:20:28.000Z</pubTime>
+        
+        <tag>C++ </tag>
+         
+        <tag>笔记 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
     
   <url>
     <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
@@ -524,27 +633,6 @@
            
              
               <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://wixy.top/2015/08/22/about-string/</loc>
-    <lastmod>2015-08-22T08:01:42.736Z</lastmod>
-    <data>
-        <display>
-        <title><string> 与<string.h>、<cstring>的区别</title>
-        <pubTime>2015-08-22T02:20:28.000Z</pubTime>
-        
-        <tag>C++ </tag>
-         
-         
-           
-             
-              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
