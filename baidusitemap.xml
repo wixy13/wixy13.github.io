@@ -3,14 +3,38 @@
 
     
   <url>
-    <loc>http://wixy.top/2016/02/27/gcd-and-lcm/</loc>
-    <lastmod>2016-02-27T14:15:01.312Z</lastmod>
+    <loc>http://wixy.top/2016/02/27/auj-168/</loc>
+    <lastmod>2016-02-29T15:26:24.221Z</lastmod>
     <data>
         <display>
-        <title>关于最大公约数和最小公倍数</title>
-        <pubTime>2016-02-27T14:03:12.000Z</pubTime>
+        <title>auj 168 成绩评估</title>
+        <pubTime>2016-02-27T13:10:37.000Z</pubTime>
         
-        <tag>笔记 </tag>
+        <tag>ACM </tag>
+         
+        <tag>AUJ </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2016/02/29/auj-502/</loc>
+    <lastmod>2016-02-29T15:26:06.759Z</lastmod>
+    <data>
+        <display>
+        <title>auj-502</title>
+        <pubTime>2016-02-29T15:20:29.000Z</pubTime>
+        
+        <tag>ACM </tag>
+         
+        <tag>AUJ </tag>
          
          
            
@@ -24,7 +48,7 @@
     
   <url>
     <loc>http://wixy.top/2016/02/27/auj-165/</loc>
-    <lastmod>2016-02-27T13:20:31.313Z</lastmod>
+    <lastmod>2016-02-29T15:21:19.104Z</lastmod>
     <data>
         <display>
         <title>auj 165 字符统计</title>
@@ -45,16 +69,14 @@
 
     
   <url>
-    <loc>http://wixy.top/2016/02/27/auj-168/</loc>
-    <lastmod>2016-02-27T13:20:24.012Z</lastmod>
+    <loc>http://wixy.top/2016/02/27/gcd-and-lcm/</loc>
+    <lastmod>2016-02-27T14:15:01.312Z</lastmod>
     <data>
         <display>
-        <title>auj 168 成绩评估</title>
-        <pubTime>2016-02-27T13:10:37.000Z</pubTime>
+        <title>关于最大公约数和最小公倍数</title>
+        <pubTime>2016-02-27T14:03:12.000Z</pubTime>
         
-        <tag>ACM </tag>
-         
-        <tag>AUJ </tag>
+        <tag>笔记 </tag>
          
          
            

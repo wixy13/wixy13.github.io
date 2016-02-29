@@ -230,6 +230,154 @@ var _hmt = _hmt || [];
 </nav>
       <div class="body-wrap">
   
+    <article id="post-auj-502" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/02/29/auj-502/" class="article-date">
+  	<time datetime="2016-02-29T15:20:29.000Z" itemprop="datePublished">2016-02-29</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/02/29/auj-502/">auj-502</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=502" target="_blank" rel="external">http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=502</a></p>
+<h2 id="题目大意">题目大意</h2><p>C语言里有个很著名的问题叫做水仙花数。水仙花数是一个三位数，它的各位数字的立方相加后等于该数字。多么美丽的数字啊！<br>可是Large发现这个世界上不仅仅有水仙花，正如整数不仅仅只有三位数一样。<br>Large经过仔细研究，发现有很多花比水仙花数更优美，我们现在做出如下定义：</p>
+<p>班花数：它是一个四位数，各位数字的四次方相加后等于该数。</p>
+<p>级花数：它是一个五位数，各位数字的五次方相加后等于该数。</p>
+<p>校花数：它是一个六位数，各位数字的六次方相加后等于该数。</p>
+<p>我们的任务就是，对于输入的一个整数，判断它是上述数的哪一种。<br>包含多组数据，第K组数据格式如下：</p>
+<p>第K行：每行包括一个正整数N(100&lt;N&lt;1000000) 输入以EOF作为结束</p>
+<p>每组数据输出一行，第K组数据格式如下：</p>
+<p>第K行：每行包括一个单词或词组，由对应的输入数字确定，其内容如下</p>
+<p>如果该数是水仙花数，输出Daffodil</p>
+<p>如果该数是班花数，输出Class Flower</p>
+<p>如果该数是级花数，输出Grade Flower</p>
+<p>如果该数是校花数，输出OH~</p>
+<p>如果该数不满足任何一个定义，输出一个Nothing</p>
+<h4 id="Sample_Input">Sample Input</h4><p>153</p>
+<p>12345</p>
+<h4 id="Sample_Output">Sample Output</h4><p>Daffodil</p>
+<p>Nothing</p>
+<h2 id="方法与总结">方法与总结</h2><ul>
+<li>只要把输入的整数按位拆开，再分别求对应的幂次，最后比较和与原数是否相等即可。你也可以打表过数据，因为满足这样条件的数实在是太少了，尤其是校花，只有一个啊~</li>
+<li>本题由于要进行a的b次方运算，所以我刚开始使用了math.h中的pow函数，从而导致了错误。原因是pow函数接受和返回的数值均为浮点型，在计算和比较时可能会带来误差。如果自己动手编写一个整型的pow函数就可以避免这个问题。</li>
+<li><h2 id="代码">代码</h2><p>  #include<iostream><br>  using namespace std;</iostream></p>
+<p>  int PP(int num,int n)<br>  {</p>
+<pre><code><span class="built_in">int</span> pk=<span class="number">1</span><span class="comment">;</span>
+<span class="keyword">for</span>(<span class="built_in">int</span> i=<span class="number">0</span><span class="comment">;i&lt;n;i++)</span>
+    pk*=num<span class="comment">;</span>
+<span class="keyword">return</span> pk<span class="comment">;</span>
+</code></pre><p>  }<br>  bool isDaf(int n)<br>  {</p>
+<pre><code>int <span class="keyword">sum</span>=0,<span class="keyword">mark</span>=<span class="keyword">n</span>;
+<span class="keyword">while</span>(<span class="keyword">n</span>&gt;0)
+{
+    <span class="keyword">sum</span>+=PP(<span class="keyword">n</span>%10,3);
+    <span class="keyword">n</span>/=10;
+}
+<span class="keyword">if</span>(<span class="keyword">sum</span>==<span class="keyword">mark</span> &amp;&amp; <span class="keyword">mark</span>&gt;=100 &amp;&amp; <span class="keyword">mark</span>&lt;=999)
+    <span class="keyword">return</span> 1;
+<span class="keyword">return</span> 0;
+</code></pre><p>  }</p>
+<p>  bool isCla(int n)<br>  {</p>
+<pre><code>int <span class="keyword">sum</span>=0,<span class="keyword">mark</span>=<span class="keyword">n</span>;
+<span class="keyword">while</span>(<span class="keyword">n</span>&gt;0)
+{
+    <span class="keyword">sum</span>+=PP(<span class="keyword">n</span>%10,4);
+    <span class="keyword">n</span>/=10;
+}
+<span class="keyword">if</span>(<span class="keyword">sum</span>==<span class="keyword">mark</span> &amp;&amp; <span class="keyword">mark</span>&gt;=1000 &amp;&amp; <span class="keyword">mark</span>&lt;=9999)
+    <span class="keyword">return</span> 1;
+<span class="keyword">return</span> 0;
+</code></pre><p>  }</p>
+<p>  bool isGra(int n)<br>  {</p>
+<pre><code>int <span class="keyword">sum</span>=0,<span class="keyword">mark</span>=<span class="keyword">n</span>;
+<span class="keyword">while</span>(<span class="keyword">n</span>&gt;0)
+{
+    <span class="keyword">sum</span>+=PP(<span class="keyword">n</span>%10,5);
+    <span class="keyword">n</span>/=10;
+}
+<span class="keyword">if</span>(<span class="keyword">sum</span>==<span class="keyword">mark</span> &amp;&amp; <span class="keyword">mark</span>&gt;=10000 &amp;&amp; <span class="keyword">mark</span>&lt;=99999)
+    <span class="keyword">return</span> 1;
+<span class="keyword">return</span> 0;
+</code></pre><p>  }</p>
+<p>  bool isSch(int n)<br>  {</p>
+<pre><code>int <span class="keyword">sum</span>=0,<span class="keyword">mark</span>=<span class="keyword">n</span>;
+<span class="keyword">while</span>(<span class="keyword">n</span>&gt;0)
+{
+    <span class="keyword">sum</span>+=PP(<span class="keyword">n</span>%10,6);
+    <span class="keyword">n</span>/=10;
+}
+<span class="keyword">if</span>(<span class="keyword">sum</span>==<span class="keyword">mark</span> &amp;&amp; <span class="keyword">mark</span>&gt;=100000 &amp;&amp; <span class="keyword">mark</span>&lt;=999999)
+    <span class="keyword">return</span> 1;
+<span class="keyword">return</span> 0;
+</code></pre><p>  }</p>
+<p>  int main()<br>  {</p>
+<pre><code><span class="keyword">int</span> n;
+<span class="keyword">while</span>(<span class="built_in">cin</span>&gt;&gt;n)
+{
+    <span class="keyword">if</span>(isDaf(n))
+        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Daffodil"</span>&lt;&lt;endl;
+    <span class="keyword">else</span> <span class="keyword">if</span>(isCla(n))
+        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Class Flower"</span>&lt;&lt;endl;
+    <span class="keyword">else</span> <span class="keyword">if</span>(isGra(n))
+        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Grade Flower"</span>&lt;&lt;endl;
+    <span class="keyword">else</span> <span class="keyword">if</span>(isSch(n))
+        <span class="built_in">cout</span>&lt;&lt;<span class="string">"OH~"</span>&lt;&lt;endl;
+    <span class="keyword">else</span>
+        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Nothing"</span>&lt;&lt;endl;
+}
+<span class="keyword">return</span> <span class="number">0</span>;
+</code></pre><p>  }</p>
+</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AUJ/">AUJ</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/学习/">学习</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-gcd-and-lcm" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -323,7 +471,7 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a href="http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=168">AUJ 168</a></p>
+        <p><a href="http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=168">http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=168</a></p>
 <h2 id="题目大意">题目大意</h2><p>我们知道，高中会考是按等级来的。 </p>
 <p>90~100为A;<br>80~89为B;<br>70~79为C;<br>60~69为D;
       
@@ -387,7 +535,7 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a href="http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=165">AUJ 165</a></p>
+        <p><a href="http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=165">http://icpc.ahu.edu.cn/OJ/Problem.aspx?id=165</a></p>
 <h2 id="题目大意">题目大意</h2><p>给出一串字符，要求统计出里面的字母、数字、空格以及其他字符的个数。</p>
 <p>字母:A, B, …, Z、a, b, …, z组成 </p>
 <p>数字:0, 1, …, 9 </p>
@@ -803,71 +951,6 @@ var _hmt = _hmt || [];
       
         <p class="article-more-link">
           <a  href="/2015/09/22/hdu-2013/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-hdu-2029" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/21/hdu-2029/" class="article-date">
-  	<time datetime="2015-09-21T15:19:34.000Z" itemprop="datePublished">2015-09-21</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/21/hdu-2029/">hdu 2029 Palindromes _easy version</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://acm.hdu.edu.cn/showproblem.php?pid=2029">http://acm.hdu.edu.cn/showproblem.php?pid=2029</a></p>
-<h2 id="题目大意">题目大意</h2><p>“回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。请写一个程序判断读入的字符串是否是“回文”。</p>
-<h4 id="Sample_Input">Sample Input</h4><p>4</p>
-<p>level
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HDU/">HDU</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/学习/">学习</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/09/21/hdu-2029/#more">阅读全文 >></a>
         </p>
       
       <div class="clearfix"></div>
