@@ -4,7 +4,7 @@
     
   <url>
     <loc>http://wixy.top/2016/02/29/auj-9/</loc>
-    <lastmod>2016-03-03T08:10:18.464Z</lastmod>
+    <lastmod>2016-03-03T08:14:29.776Z</lastmod>
     <data>
         <display>
         <title>auj 9 University</title>
@@ -18,6 +18,26 @@
            
              
               <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
+    <lastmod>2016-03-03T08:14:29.775Z</lastmod>
+    <data>
+        <display>
+        <title>hexo博客中添加instagram相册</title>
+        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
+        
+        <tag>hexo </tag>
+         
+         
+           
+             
+              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
@@ -79,26 +99,6 @@
         <tag>hexo </tag>
          
         <tag>markdown </tag>
-         
-         
-           
-             
-              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
-    <lastmod>2016-03-03T08:00:57.315Z</lastmod>
-    <data>
-        <display>
-        <title>hexo博客中添加instagram相册</title>
-        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
-        
-        <tag>hexo </tag>
          
          
            
