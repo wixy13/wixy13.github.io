@@ -3,28 +3,8 @@
 
     
   <url>
-    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
-    <lastmod>2016-03-03T08:00:57.315Z</lastmod>
-    <data>
-        <display>
-        <title>hexo博客中添加instagram相册</title>
-        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
-        
-        <tag>hexo </tag>
-         
-         
-           
-             
-              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://wixy.top/2016/02/29/auj-9/</loc>
-    <lastmod>2016-02-29T15:47:06.052Z</lastmod>
+    <lastmod>2016-03-03T08:10:18.464Z</lastmod>
     <data>
         <display>
         <title>auj 9 University</title>
@@ -46,7 +26,7 @@
     
   <url>
     <loc>http://wixy.top/2016/02/29/auj-502/</loc>
-    <lastmod>2016-02-29T15:30:46.542Z</lastmod>
+    <lastmod>2016-03-03T08:08:26.697Z</lastmod>
     <data>
         <display>
         <title>auj 502 不只是水仙花</title>
@@ -60,6 +40,70 @@
            
              
               <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2016/02/27/about-input-1/</loc>
+    <lastmod>2016-03-03T08:08:11.669Z</lastmod>
+    <data>
+        <display>
+        <title>C++读取一行字符串输入</title>
+        <pubTime>2016-02-27T12:46:31.000Z</pubTime>
+        
+        <tag>C++ </tag>
+         
+        <tag>笔记 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2015/08/16/markdown-1/</loc>
+    <lastmod>2016-03-03T08:07:27.485Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown语法</title>
+        <pubTime>2015-08-16T03:50:51.000Z</pubTime>
+        
+        <tag>hexo </tag>
+         
+        <tag>markdown </tag>
+         
+         
+           
+             
+              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2015/08/17/add-instagram/</loc>
+    <lastmod>2016-03-03T08:00:57.315Z</lastmod>
+    <data>
+        <display>
+        <title>hexo博客中添加instagram相册</title>
+        <pubTime>2015-08-17T02:21:51.000Z</pubTime>
+        
+        <tag>hexo </tag>
+         
+         
+           
+             
+              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
@@ -118,28 +162,6 @@
         <title>关于最大公约数和最小公倍数</title>
         <pubTime>2016-02-27T14:03:12.000Z</pubTime>
         
-        <tag>笔记 </tag>
-         
-         
-           
-             
-              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wixy.top/2016/02/27/about-input-1/</loc>
-    <lastmod>2016-02-27T13:01:02.462Z</lastmod>
-    <data>
-        <display>
-        <title>C++读取一行字符串输入</title>
-        <pubTime>2016-02-27T12:46:31.000Z</pubTime>
-        
-        <tag>C++ </tag>
-         
         <tag>笔记 </tag>
          
          
@@ -655,28 +677,6 @@
            
              
               <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wixy.top/2015/08/16/markdown-1/</loc>
-    <lastmod>2015-08-24T03:35:58.392Z</lastmod>
-    <data>
-        <display>
-        <title>Markdown语法</title>
-        <pubTime>2015-08-16T03:50:51.000Z</pubTime>
-        
-        <tag>hexo </tag>
-         
-        <tag>markdown </tag>
-         
-         
-           
-             
-              <breadCrumb title="教程" url="http://wixy.top/categories/%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
