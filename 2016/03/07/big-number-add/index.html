@@ -27,18 +27,21 @@
   <title>大数加法 | 王煜的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="例如求两个不超过200位的非负整数的和，结果里不能有多余的前导0。
-用字符串保存大整数，用整型数组保存结果，注意考虑进位情况">
+用字符串保存大整数，用整型数组保存结果，注意考虑进位情况
+代码如下：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="大数加法">
 <meta property="og:url" content="http://wixy.top/2016/03/07/big-number-add/index.html">
 <meta property="og:site_name" content="王煜的博客">
 <meta property="og:description" content="例如求两个不超过200位的非负整数的和，结果里不能有多余的前导0。
-用字符串保存大整数，用整型数组保存结果，注意考虑进位情况">
-<meta property="og:updated_time" content="2016-03-07T12:13:54.425Z">
+用字符串保存大整数，用整型数组保存结果，注意考虑进位情况
+代码如下：">
+<meta property="og:updated_time" content="2016-03-07T12:34:24.065Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="大数加法">
 <meta name="twitter:description" content="例如求两个不超过200位的非负整数的和，结果里不能有多余的前导0。
-用字符串保存大整数，用整型数组保存结果，注意考虑进位情况">
+用字符串保存大整数，用整型数组保存结果，注意考虑进位情况
+代码如下：">
   
     <link rel="alternative" href="/atom.xml" title="王煜的博客" type="application/atom+xml">
   
@@ -275,8 +278,8 @@ var _hmt = _hmt || [];
       
         <p>例如求两个不超过200位的非负整数的和，结果里不能有多余的前导0。</p>
 <p>用字符串保存大整数，用整型数组保存结果，注意考虑进位情况</p>
-<a id="more"></a>
-<h3 id="代码如下：">代码如下：</h3><pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span>
+<h3 id="代码如下：">代码如下：</h3><a id="more"></a>
+<pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span>
 <span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span>
 <span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
 
@@ -286,7 +289,7 @@ var _hmt = _hmt || [];
     <span class="keyword">int</span> a[<span class="number">201</span>];
     <span class="keyword">while</span>(<span class="built_in">cin</span>&gt;&gt;s1&gt;&gt;s2)<span class="comment">//输入两个字符串 </span>
     {
-        <span class="keyword">if</span>(s1.length()&gt;s2.length())<span class="comment">//判断字符串长度在短串前面补上0,让两串长度相等 </span>
+        <span class="keyword">if</span>(s1.length()&gt;s2.length())<span class="comment">//判断字符串长度，并在短串前面补上0,让两串长度相等 </span>
         {
             <span class="built_in">string</span> s;
             <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;s1.length()-s2.length();i++)
@@ -343,6 +346,15 @@ var _hmt = _hmt || [];
   
     
 <nav id="article-nav">
+  
+    <a href="/2016/03/07/big-number-nul/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          大数乘法
+        
+      </div>
+    </a>
   
   
     <a href="/2016/03/02/auj-611/" id="article-nav-older" class="article-nav-link-wrap">

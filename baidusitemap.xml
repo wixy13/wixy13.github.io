@@ -4,11 +4,35 @@
     
   <url>
     <loc>http://wixy.top/2016/03/07/big-number-add/</loc>
-    <lastmod>2016-03-07T12:13:54.425Z</lastmod>
+    <lastmod>2016-03-07T12:34:24.065Z</lastmod>
     <data>
         <display>
         <title>大数加法</title>
         <pubTime>2016-03-07T11:45:35.000Z</pubTime>
+        
+        <tag>ACM </tag>
+         
+        <tag>C++ </tag>
+         
+        <tag>笔记 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://wixy.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wixy.top/2016/03/07/big-number-nul/</loc>
+    <lastmod>2016-03-07T12:34:21.539Z</lastmod>
+    <data>
+        <display>
+        <title>大数乘法</title>
+        <pubTime>2016-03-07T12:30:05.000Z</pubTime>
         
         <tag>ACM </tag>
          
