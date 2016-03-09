@@ -24,30 +24,17 @@
 
   <meta charset="utf-8">
   
-  <title>hdu 2027 统计元音 | 王煜的博客</title>
+  <title>Tag: 数据结构 | 王煜的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="http://acm.hdu.edu.cn/showproblem.php?pid=2027
-题目大意统计每个元音字母在字符串中出现的次数。输入数据首先包括一个整数n，表示测试实例的个数，然后是n行长度不超过100的字符串。对于每个测试实例输出5行，格式如下：
-a:num1
-e:num2
-i:num3">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hdu 2027 统计元音">
-<meta property="og:url" content="http://wixy.top/2015/09/02/hdu-2027/index.html">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="王煜的博客">
+<meta property="og:url" content="http://wixy.top/tags/数据结构/index.html">
 <meta property="og:site_name" content="王煜的博客">
-<meta property="og:description" content="http://acm.hdu.edu.cn/showproblem.php?pid=2027
-题目大意统计每个元音字母在字符串中出现的次数。输入数据首先包括一个整数n，表示测试实例的个数，然后是n行长度不超过100的字符串。对于每个测试实例输出5行，格式如下：
-a:num1
-e:num2
-i:num3">
-<meta property="og:updated_time" content="2015-09-03T15:26:47.757Z">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hdu 2027 统计元音">
-<meta name="twitter:description" content="http://acm.hdu.edu.cn/showproblem.php?pid=2027
-题目大意统计每个元音字母在字符串中出现的次数。输入数据首先包括一个整数n，表示测试实例的个数，然后是n行长度不超过100的字符串。对于每个测试实例输出5行，格式如下：
-a:num1
-e:num2
-i:num3">
+<meta name="twitter:title" content="王煜的博客">
+<meta name="twitter:description">
   
     <link rel="alternative" href="/atom.xml" title="王煜的博客" type="application/atom+xml">
   
@@ -241,173 +228,57 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-hdu-2027" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap">
   
-    <div class="article-meta">
-      <a href="/2015/09/02/hdu-2027/" class="article-date">
-  	<time datetime="2015-09-02T09:08:26.000Z" itemprop="datePublished">2015-09-02</time>
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2016" class="archive-year">2016</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2016/03/09/C-List/" class="archive-article-date">
+  	<time datetime="2016-03-09T09:24:17.000Z" itemprop="datePublished">3月 9</time>
 </a>
-    </div>
+        </div>
+    	 
   
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      hdu 2027 统计元音
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2016/03/09/C-List/">C++ STL模板类List学习笔记</a>
     </h1>
   
 
-      </header>
-      
-      <div class="article-info article-info-post">
-        
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HDU/">HDU</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/学习笔记/">学习笔记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据结构/">数据结构</a></li></ul>
 	</div>
 
-        
+          
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/学习/">学习</a>
 	</div>
 
 
+        </div>
         <div class="clearfix"></div>
-      </div>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://acm.hdu.edu.cn/showproblem.php?pid=2027" target="_blank" rel="external">http://acm.hdu.edu.cn/showproblem.php?pid=2027</a></p>
-<h2 id="题目大意">题目大意</h2><p>统计每个元音字母在字符串中出现的次数。输入数据首先包括一个整数n，表示测试实例的个数，然后是n行长度不超过100的字符串。对于每个测试实例输出5行，格式如下：</p>
-<p>a:num1</p>
-<p>e:num2</p>
-<p>i:num3<a id="more"></a></p>
-<p>o:num4</p>
-<p>u:num5<br>多个测试实例之间由一个空行隔开。</p>
-<p>请特别注意：最后一块输出后面没有空行：）</p>
-<h4 id="Sample_Input">Sample Input</h4><p>2</p>
-<p>aeiou</p>
-<p>my name is ignatius</p>
-<h4 id="Sample_Output">Sample Output</h4><p>a:1</p>
-<p>e:1</p>
-<p>i:1</p>
-<p>o:1</p>
-<p>u:1</p>
-<p>a:2</p>
-<p>e:1</p>
-<p>i:3</p>
-<p>o:0</p>
-<p>u:1</p>
-<h2 id="方法与总结">方法与总结</h2><ul>
-<li>注意格式</li>
-<li>多个测试实例之间由一个空行隔开</li>
-<li>注意最后一块输出后面没有空行</li>
-</ul>
-<h2 id="代码">代码</h2><pre><code><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span>
-<span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span>
-
-<span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span>
-</span>{
-    <span class="keyword">int</span> n,j;
-    <span class="keyword">int</span> a,e,i,o,u;
-    <span class="keyword">char</span> str[<span class="number">1000</span>];
-    <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);
-    getchar();
-    <span class="keyword">while</span>(n--)
-    {
-        a=e=i=o=u=<span class="number">0</span>;
-        gets(str);
-        <span class="keyword">int</span> m=<span class="built_in">strlen</span>(str);
-        <span class="keyword">for</span>(j=<span class="number">0</span>;j&lt;m;j++)
-        {
-            <span class="keyword">if</span>(str[j]==<span class="string">'a'</span>) a++;
-            <span class="keyword">if</span>(str[j]==<span class="string">'e'</span>) e++;
-            <span class="keyword">if</span>(str[j]==<span class="string">'i'</span>) i++;
-            <span class="keyword">if</span>(str[j]==<span class="string">'o'</span>) o++;
-            <span class="keyword">if</span>(str[j]==<span class="string">'u'</span>) u++;
-        }
-        <span class="built_in">printf</span>(<span class="string">"a:%d\n"</span>,a);  
-        <span class="built_in">printf</span>(<span class="string">"e:%d\n"</span>,e);  
-        <span class="built_in">printf</span>(<span class="string">"i:%d\n"</span>,i);  
-        <span class="built_in">printf</span>(<span class="string">"o:%d\n"</span>,o);  
-        <span class="built_in">printf</span>(<span class="string">"u:%d\n"</span>,u);  
-        <span class="keyword">if</span>(n&gt;<span class="number">0</span>) <span class="built_in">printf</span>(<span class="string">"\n"</span>); 
-    }
-    <span class="keyword">return</span> <span class="number">0</span>;
-}
-</code></pre>
-      
-    </div>
-    
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2015/09/03/hdu-2014/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          hdu 2014 青年歌手大奖赛_评委会打分
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2015/09/01/hdu-2016/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">hdu 2016 数据的交换输出</div>
-      <strong class="article-nav-caption">></strong>
-    </a>
-  
-</nav>
-
-  
 </article>
+  
+  
+    </div></section>
+  
 
-
-<div class="share">
-	<!-- JiaThis Button BEGIN -->
-	<div class="jiathis_style">
-		<span class="jiathis_txt">分享到：</span>
-		<a class="jiathis_button_tsina"></a>
-		<a class="jiathis_button_cqq"></a>
-		<a class="jiathis_button_douban"></a>
-		<a class="jiathis_button_weixin"></a>
-		<a class="jiathis_button_tumblr"></a>
-		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-	</div>
-	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
-	<!-- JiaThis Button END -->
-</div>
-
-
-
-<div class="duoshuo">
-	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="hdu-2027" data-title="hdu 2027 统计元音" data-url="http://wixy.top/2015/09/02/hdu-2027/"></div>
-	<!-- 多说评论框 end -->
-	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"wixy"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://7xl52i.com1.z0.glb.clouddn.com/embed_20160304.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-	<!-- 多说公共JS代码 end -->
-</div>
-
-
-
+    
 
 </div>
       <footer id="footer">
@@ -440,9 +311,9 @@ var _hmt = _hmt || [];
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: false
 	}
