@@ -46,7 +46,8 @@ var Instagram = (function(){
 		}else{
 			var url = "http://photos-g.ak.instagram.com/hphotos-ak-xpf1/";
 			var arr = str.split("/");
-			return url+arr[arr.length-1];
+			return str;
+			//return url+arr[arr.length-1];
 		}
 	}
 
